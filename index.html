@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Age calculator app</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; margin-top: 15px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <section>
+      <form action="#" id="ageInput" onsubmit="getDateDifference(event)">
+        <div class="col-4 inputs">
+          <p>Day</p>
+          <input type="number" placeholder="DD" id="day">
+          <p id="day-error" class="error"></p>
+        </div>
+        <div class="col-4 inputs">
+          <p>Month</p>
+          <input type="number" placeholder="MM" id="month">
+          <p id="month-error" class="error"></p>
+        </div>
+        <div class="col-4 inputs">
+          <p>Year</p>
+          <input type="number" placeholder="YYYY" id="year">
+          <p id="year-error" class="error"></p>
+        </div>
+          <input type="image" src="assets/images/icon-arrow.svg" class="submit">
+      </form>
+          
+    </section>
+    
+
+  
+    <section class="age-result">
+      <h1><span id="resYears">- -</span> years</h1> 
+      <h1><span id="resMonths">- -</span> months</h1>
+      <h1><span id="resDays">- -</span> days</h1>
+    </section>
+  
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script
+  src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+  integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+  crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+  <script>
+
+// $(".submit").click(function(){
+//     let day = $('#day').val(); 
+//     let month = $('#month').val(); 
+//     let year = $('#year').val(); 
+
+//     if (day == '')
+//     {
+//         $('#day-error').html('enter');
+//         return false;
+//     }
+//     if (month == '')
+//     {
+//         $('#month-error').html('enter');
+//         return false;
+//     }
+//     if (year == '')
+//     {
+//         $('#year-error').html('enter');
+//         return false;
+//     }
+    // if ((day == '')||(month == '')||(year == ''))
+    // {
+    //     return false;
+    // }
+    // if ((day == '')||(month == '')||(year == ''))
+    // {
+    //     return false;
+    // }
+    // if ((day == '')||(month == '')||(year == ''))
+    // {
+    //     return false;
+    // }
+    // if ((day == '')||(month == '')||(year == ''))
+    // {
+    //     return false;
+    // }
+    // if ((day == '')||(month == '')||(year == ''))
+    // {
+    //     return false;
+    // }
+
+
+  //   getDateDifference(event)
+  // })
+  </script>
+</body>
+</html>
