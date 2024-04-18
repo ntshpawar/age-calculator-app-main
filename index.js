@@ -63,7 +63,7 @@ function getDateDifference(e) {
     
 
 
-    if (error = '') {
+    if (error == '') {
       
         // Create the past date object
     let past = new Date(year+'/'+month+'/'+day);
